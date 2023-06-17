@@ -1,12 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-resources: 
+resources:
 - deployment.yaml
 - services.yaml
 
 namespace: pyapp
 
-images: 
+images:
 - name: pyapp
-  newName: pyapp
-  newTag: v1
+  newName: pavankumarag/python-flask-docker
+  newTag: d3c59bae2d12a36266107a87848dc8cfb50af759
