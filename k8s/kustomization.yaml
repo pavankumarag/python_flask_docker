@@ -9,4 +9,4 @@ namespace: pyapp
 images:
 - name: pyapp
   newName: pavankumarag/python-flask-docker
-  newTag: 2b73badc5c4719818befcbe6ab1aca4149ee6a3e
+  newTag: b5bf1164652ae2909c02d11bf763ebcca72fc3e7
